@@ -5,5 +5,5 @@ zuul:
       path: /myProduct/**
       sensitive-headers:
   ignored-patterns:
-  - /**/product/list
+  - /product/product/list
   
