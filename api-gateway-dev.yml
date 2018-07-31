@@ -1,2 +1,9 @@
-
+zuul:
+  routes: 
+    myProduct:
+      service-id: PRODUCT
+      path: /myProduct/**
+      sensitive-headers:
+  ignored-patterns:
+  - /**/product/list
   
